@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def little_life(str_arg):
+def be_big_man_into_first_eye(str_arg):
     government(str_arg)
-    print('number_or_woman')
+    print('way')
 
 def government(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    little_life('different_life')
+    be_big_man_into_first_eye('feel_year')
