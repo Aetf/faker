@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def time(str_arg):
+def know_little_case(str_arg):
     case(str_arg)
-    print('life')
+    print('woman')
 
 def case(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    time('place')
+    know_little_case('case_or_way')
