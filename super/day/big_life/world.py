@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def company(str_arg):
+def few_woman(str_arg):
     government(str_arg)
-    print('hand')
+    print('new_part')
 
 def government(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    company('big_life_and_time')
+    few_woman('good_work_or_day')
