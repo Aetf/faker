@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def large_problem(str_arg):
+def able_hand(str_arg):
     case(str_arg)
-    print('small_problem_and_way')
+    print('give_year_after_first_number')
 
 def case(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    large_problem('company')
+    able_hand('first_place_or_work')
