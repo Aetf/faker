@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def take_great_time(str_arg):
+def same_work(str_arg):
     child(str_arg)
-    print('high_eye')
+    print('place')
 
 def child(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    take_great_time('come_life_by_group')
+    same_work('own_year_or_part')
