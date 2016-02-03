@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def seem_group(str_arg):
+def ask_part_above_number(str_arg):
     thing(str_arg)
-    print('work_other_world_at_early_person')
+    print('part_and_case')
 
 def thing(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    seem_group('own_way')
+    ask_part_above_number('right_company')
