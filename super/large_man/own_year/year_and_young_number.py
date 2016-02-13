@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def child(str_arg):
+def life(str_arg):
     time(str_arg)
-    print('new_day')
+    print('world')
 
 def time(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    child('first_world_and_fact')
+    life('be_good_fact_from_group')
