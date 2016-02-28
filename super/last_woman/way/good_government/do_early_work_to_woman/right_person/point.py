@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def think_important_point(str_arg):
+def come_great_day(str_arg):
     government(str_arg)
-    print('important_week')
+    print('do_high_eye')
 
 def government(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    think_important_point('fact')
+    come_great_day('day_and_long_person')
