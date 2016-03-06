@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def number_or_different_life(str_arg):
+def bad_world(str_arg):
     person(str_arg)
-    print('child_and_high_point')
+    print('other_thing_or_high_work')
 
 def person(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    number_or_different_life('want_man')
+    bad_world('other_way')
