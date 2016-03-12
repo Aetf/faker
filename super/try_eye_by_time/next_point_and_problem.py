@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def hand(str_arg):
+def woman(str_arg):
     point(str_arg)
-    print('other_case_or_company')
+    print('right_number_and_group')
 
 def point(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    hand('say_able_case')
+    woman('large_number')
