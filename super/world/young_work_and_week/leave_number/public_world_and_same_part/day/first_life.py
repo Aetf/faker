@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def take_day_under_man(str_arg):
+def hand(str_arg):
     point(str_arg)
-    print('child')
+    print('early_case')
 
 def point(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    take_day_under_man('young_way')
+    hand('day_or_woman')
