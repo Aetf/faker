@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def week(str_arg):
+def different_group(str_arg):
     eye(str_arg)
-    print('young_company')
+    print('first_problem')
 
 def eye(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    week('woman')
+    different_group('bad_year')
