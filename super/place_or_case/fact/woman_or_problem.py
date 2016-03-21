@@ -2,11 +2,11 @@
 #! /usr/bin/env python
 
 def eye(str_arg):
-    way(str_arg)
-    print('own_child')
+    right_life(str_arg)
+    print('right_way')
 
-def way(str_arg):
+def right_life(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    eye('public_man')
+    eye('fact')
