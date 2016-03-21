@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def work(str_arg):
+def little_man(str_arg):
     part(str_arg)
-    print('large_year')
+    print('day_or_high_life')
 
 def part(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    work('same_life_or_work')
+    little_man('part_or_number')
