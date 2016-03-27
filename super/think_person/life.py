@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def number(str_arg):
+def same_man(str_arg):
     government(str_arg)
-    print('small_problem')
+    print('ask_government')
 
 def government(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    number('great_time')
+    same_man('ask_fact_of_public_eye')
