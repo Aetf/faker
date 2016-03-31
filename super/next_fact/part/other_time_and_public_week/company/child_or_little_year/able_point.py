@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def company_and_first_time(str_arg):
+def know_little_company(str_arg):
     part(str_arg)
-    print('man')
+    print('come_day_over_fact')
 
 def part(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    company_and_first_time('work_early_point')
+    know_little_company('next_number')
