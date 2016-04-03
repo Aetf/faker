@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def point(str_arg):
+def point_or_other_eye(str_arg):
     time(str_arg)
-    print('world_and_time')
+    print('own_eye')
 
 def time(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    point('woman')
+    point_or_other_eye('important_child_and_part')
