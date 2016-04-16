@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def thing_or_place(str_arg):
+def big_work(str_arg):
     high_way(str_arg)
-    print('say_early_day')
+    print('old_part_and_life')
 
 def high_way(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    thing_or_place('bad_eye')
+    big_work('life_and_government')
