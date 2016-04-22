@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def think_company_up_child(str_arg):
+def place_or_other_life(str_arg):
     hand(str_arg)
-    print('large_group')
+    print('few_company')
 
 def hand(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    think_company_up_child('high_time')
+    place_or_other_life('week')
