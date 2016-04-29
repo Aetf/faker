@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def ask_same_world(str_arg):
+def man_and_woman(str_arg):
     work(str_arg)
-    print('problem')
+    print('way')
 
 def work(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    ask_same_world('early_time')
+    man_and_woman('new_government_or_bad_world')
