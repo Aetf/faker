@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def different_point(str_arg):
+def time(str_arg):
     day(str_arg)
-    print('right_fact')
+    print('child')
 
 def day(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    different_point('great_child')
+    time('little_person')
