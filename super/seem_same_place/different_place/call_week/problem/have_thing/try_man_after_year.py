@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def man_or_few_person(str_arg):
+def large_point_and_week(str_arg):
     hand(str_arg)
-    print('come_small_eye_into_time')
+    print('work')
 
 def hand(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    man_or_few_person('week')
+    large_point_and_week('want_old_number_up_number')
