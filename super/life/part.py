@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def place(str_arg):
+def young_world(str_arg):
     government(str_arg)
-    print('public_number_and_problem')
+    print('day')
 
 def government(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    place('woman_and_little_number')
+    young_world('place_and_high_company')
