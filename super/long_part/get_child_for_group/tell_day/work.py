@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def year(str_arg):
+def early_number_or_child(str_arg):
     child(str_arg)
-    print('work_different_hand_on_company')
+    print('large_work')
 
 def child(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    year('part_and_right_world')
+    early_number_or_child('day')
