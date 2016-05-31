@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def case(str_arg):
+def work_first_thing(str_arg):
     time(str_arg)
-    print('person')
+    print('different_life')
 
 def time(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    case('young_time_or_own_group')
+    work_first_thing('life')
