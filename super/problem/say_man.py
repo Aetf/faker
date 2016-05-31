@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def come_number(str_arg):
+def group(str_arg):
     person(str_arg)
-    print('great_point')
+    print('young_thing_or_year')
 
 def person(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    come_number('world')
+    group('last_number')
