@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def part(str_arg):
-    point(str_arg)
+def person(str_arg):
+    seem_time(str_arg)
     print('woman')
 
-def point(str_arg):
+def seem_time(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    part('next_child')
+    person('small_man')
