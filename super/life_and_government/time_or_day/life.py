@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def use_large_point_in_time(str_arg):
+def other_man(str_arg):
     eye(str_arg)
-    print('government')
+    print('early_thing')
 
 def eye(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    use_large_point_in_time('early_eye')
+    other_man('time')
