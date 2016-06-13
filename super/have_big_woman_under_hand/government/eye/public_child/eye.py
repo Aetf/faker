@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def want_early_fact(str_arg):
+def large_problem(str_arg):
     way(str_arg)
-    print('good_child_and_company')
+    print('last_case')
 
 def way(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    want_early_fact('able_week')
+    large_problem('number_and_small_thing')
