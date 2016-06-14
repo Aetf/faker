@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def be_year(str_arg):
+def thing(str_arg):
     work(str_arg)
-    print('long_child_and_life')
+    print('thing_or_problem')
 
 def work(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    be_year('way')
+    thing('want_first_world')
