@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def work_eye_after_man(str_arg):
+def next_work_and_part(str_arg):
     child(str_arg)
-    print('hand_or_thing')
+    print('take_large_part')
 
 def child(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    work_eye_after_man('high_number')
+    next_work_and_part('great_point_and_life')
