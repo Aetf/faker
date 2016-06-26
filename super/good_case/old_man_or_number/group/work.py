@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def call_good_week(str_arg):
+def bad_child(str_arg):
     child(str_arg)
-    print('number')
+    print('small_way')
 
 def child(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    call_good_week('number_and_important_work')
+    bad_child('good_company')
