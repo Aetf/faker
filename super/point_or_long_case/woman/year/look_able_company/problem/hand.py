@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def point(str_arg):
+def fact_and_last_group(str_arg):
     number(str_arg)
-    print('hand')
+    print('few_eye')
 
 def number(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    point('think_big_work_after_problem')
+    fact_and_last_group('government')
