@@ -2,11 +2,11 @@
 #! /usr/bin/env python
 
 def way(str_arg):
-    bad_hand(str_arg)
-    print('work_day')
+    way(str_arg)
+    print('problem')
 
-def bad_hand(str_arg):
+def way(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    way('life')
+    way('great_day')
