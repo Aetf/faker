@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def tell_work_at_time(str_arg):
-    able_hand(str_arg)
-    print('small_thing')
+def new_government(str_arg):
+    big_way(str_arg)
+    print('point')
 
-def able_hand(str_arg):
+def big_way(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    tell_work_at_time('hand')
+    new_government('little_place')
