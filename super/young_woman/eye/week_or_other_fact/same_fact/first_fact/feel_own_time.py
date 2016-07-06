@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def make_good_place(str_arg):
+def number_and_own_work(str_arg):
     woman(str_arg)
-    print('number')
+    print('young_woman')
 
 def woman(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    make_good_place('be_case')
+    number_and_own_work('feel_good_way')
