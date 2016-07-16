@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def part(str_arg):
+def important_way(str_arg):
     part(str_arg)
-    print('old_way')
+    print('have_great_world')
 
 def part(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    part('look_own_life')
+    important_way('long_case_and_world')
