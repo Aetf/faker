@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def next_way(str_arg):
+def make_first_case(str_arg):
     company(str_arg)
-    print('problem')
+    print('find_able_year_above_fact')
 
 def company(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    next_way('call_new_life')
+    make_first_case('next_problem')
