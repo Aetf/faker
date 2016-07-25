@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def big_government(str_arg):
+def find_next_person(str_arg):
     company(str_arg)
-    print('ask_last_way_after_small_woman')
+    print('week')
 
 def company(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    big_government('day')
+    find_next_person('child')
