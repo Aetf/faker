@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def great_woman(str_arg):
+def group_or_next_woman(str_arg):
     company(str_arg)
-    print('last_group')
+    print('first_place_or_company')
 
 def company(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    great_woman('early_eye')
+    group_or_next_woman('different_number')
