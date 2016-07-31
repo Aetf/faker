@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def company_and_week(str_arg):
+def find_few_eye_about_hand(str_arg):
     fact(str_arg)
-    print('public_case_or_thing')
+    print('way_and_case')
 
 def fact(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    company_and_week('want_great_group')
+    find_few_eye_about_hand('try_part')
