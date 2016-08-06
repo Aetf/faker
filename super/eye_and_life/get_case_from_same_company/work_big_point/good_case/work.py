@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def problem_and_able_day(str_arg):
+def go_hand_over_last_way(str_arg):
     company(str_arg)
-    print('man')
+    print('old_life_or_case')
 
 def company(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    problem_and_able_day('number')
+    go_hand_over_last_way('good_year_or_place')
