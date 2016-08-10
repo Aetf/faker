@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def young_man_or_group(str_arg):
+def go_person(str_arg):
     year(str_arg)
-    print('want_other_year_on_big_thing')
+    print('thing')
 
 def year(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    young_man_or_group('thing')
+    go_person('early_hand_and_life')
