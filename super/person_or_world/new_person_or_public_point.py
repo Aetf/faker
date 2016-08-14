@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def fact(str_arg):
+def find_own_problem(str_arg):
     small_place(str_arg)
-    print('eye')
+    print('go_young_person_of_government')
 
 def small_place(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    fact('time_or_same_part')
+    find_own_problem('tell_problem_on_last_hand')
