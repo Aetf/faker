@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def try_thing(str_arg):
+def point_or_able_man(str_arg):
     person(str_arg)
-    print('number')
+    print('own_government')
 
 def person(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    try_thing('thing_or_life')
+    point_or_able_man('right_company_or_fact')
