@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def last_woman(str_arg):
+def point_and_thing(str_arg):
     week(str_arg)
-    print('come_day')
+    print('take_part')
 
 def week(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    last_woman('young_case_or_place')
+    point_and_thing('long_fact')
