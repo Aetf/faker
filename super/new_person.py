@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def work(str_arg):
+def way(str_arg):
     group(str_arg)
-    print('government')
+    print('number_or_eye')
 
 def group(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    work('week')
+    way('good_life')
