@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def person(str_arg):
+def week_or_high_woman(str_arg):
     number(str_arg)
-    print('company')
+    print('person_and_able_number')
 
 def number(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    person('other_world')
+    week_or_high_woman('number')
