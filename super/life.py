@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def woman(str_arg):
+def world(str_arg):
     thing(str_arg)
-    print('time_or_company')
+    print('old_eye_and_next_person')
 
 def thing(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    woman('try_big_week')
+    world('eye_or_group')
