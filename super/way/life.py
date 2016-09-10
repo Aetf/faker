@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def own_person(str_arg):
+def high_work(str_arg):
     thing(str_arg)
-    print('number_and_important_world')
+    print('take_work_at_next_case')
 
 def thing(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    own_person('early_week')
+    high_work('life')
