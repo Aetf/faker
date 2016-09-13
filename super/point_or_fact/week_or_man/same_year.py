@@ -2,11 +2,11 @@
 #! /usr/bin/env python
 
 def life(str_arg):
-    week(str_arg)
-    print('life')
+    company(str_arg)
+    print('able_point')
 
-def week(str_arg):
+def company(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    life('government_or_new_hand')
+    life('hand')
