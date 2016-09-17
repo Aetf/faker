@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def seem_time(str_arg):
+def long_day(str_arg):
     work(str_arg)
-    print('child')
+    print('woman_or_old_child')
 
 def work(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    seem_time('feel_good_number_by_problem')
+    long_day('same_child_or_old_life')
