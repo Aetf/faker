@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def try_little_problem(str_arg):
-    eye(str_arg)
-    print('work_and_bad_way')
+def be_woman_above_case(str_arg):
+    woman_or_old_hand(str_arg)
+    print('own_case_and_place')
 
-def eye(str_arg):
+def woman_or_old_hand(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    try_little_problem('think_young_hand')
+    be_woman_above_case('work_work')
