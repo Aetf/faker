@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def work(str_arg):
+def old_thing_and_hand(str_arg):
     day(str_arg)
-    print('say_different_man')
+    print('next_problem')
 
 def day(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    work('number_or_bad_year')
+    old_thing_and_hand('thing')
