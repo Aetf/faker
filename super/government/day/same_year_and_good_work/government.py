@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def problem_or_life(str_arg):
+def group(str_arg):
     person(str_arg)
-    print('important_fact')
+    print('old_group')
 
 def person(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    problem_or_life('world')
+    group('large_child_or_part')
