@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def little_case(str_arg):
+def time(str_arg):
     man(str_arg)
-    print('company')
+    print('big_week_and_week')
 
 def man(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    little_case('know_early_work')
+    time('other_fact')
