@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def early_person(str_arg):
+def look_person(str_arg):
     part(str_arg)
-    print('man_and_new_time')
+    print('first_part_or_high_life')
 
 def part(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    early_person('case')
+    look_person('last_place_and_bad_group')

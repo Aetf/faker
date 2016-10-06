@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def few_fact(str_arg):
-    own_woman(str_arg)
+def man_and_woman(str_arg):
+    work(str_arg)
     print('number')
 
-def own_woman(str_arg):
+def work(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    few_fact('eye')
+    man_and_woman('world')
