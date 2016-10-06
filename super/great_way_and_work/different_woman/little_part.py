@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def man_and_woman(str_arg):
+def say_few_place(str_arg):
     work(str_arg)
-    print('number')
+    print('early_group')
 
 def work(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    man_and_woman('world')
+    say_few_place('government')
