@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def take_woman_by_young_year(str_arg):
+def person(str_arg):
     world(str_arg)
-    print('great_problem')
+    print('leave_group_to_part')
 
 def world(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    take_woman_by_young_year('thing')
+    person('company_and_government')
