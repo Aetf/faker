@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def early_time(str_arg):
+def part(str_arg):
     case(str_arg)
-    print('day')
+    print('be_long_case_under_great_person')
 
 def case(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    early_time('place')
+    part('person')
