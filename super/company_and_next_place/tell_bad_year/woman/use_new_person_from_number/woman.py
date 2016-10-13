@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def same_case(str_arg):
+def thing_or_day(str_arg):
     group(str_arg)
-    print('make_right_woman_at_woman')
+    print('world_or_right_man')
 
 def group(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    same_case('call_other_year')
+    thing_or_day('big_eye')
