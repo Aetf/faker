@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def work(str_arg):
+def early_part(str_arg):
     eye(str_arg)
-    print('world')
+    print('child_or_world')
 
 def eye(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    work('get_young_week')
+    early_part('last_year')
