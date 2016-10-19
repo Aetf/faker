@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def person(str_arg):
+def world_and_early_hand(str_arg):
     world(str_arg)
-    print('ask_group_beneath_time')
+    print('hand_and_fact')
 
 def world(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    person('place')
+    world_and_early_hand('problem')
