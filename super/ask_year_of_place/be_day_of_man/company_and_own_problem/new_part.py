@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def say_company(str_arg):
+def old_hand(str_arg):
     way(str_arg)
-    print('part_or_way')
+    print('new_hand_or_few_life')
 
 def way(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    say_company('see_point_to_part')
+    old_hand('person_or_last_woman')
