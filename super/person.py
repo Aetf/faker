@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def point(str_arg):
-    own_world(str_arg)
-    print('way_or_early_year')
+def eye(str_arg):
+    next_company(str_arg)
+    print('group')
 
-def own_world(str_arg):
+def next_company(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    point('able_work')
+    eye('life_and_young_time')
