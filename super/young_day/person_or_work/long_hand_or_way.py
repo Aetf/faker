@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def old_part_or_point(str_arg):
+def find_first_problem(str_arg):
     government(str_arg)
-    print('try_company')
+    print('week')
 
 def government(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    old_part_or_point('bad_problem')
+    find_first_problem('day_and_early_hand')
