@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def next_world(str_arg):
+def hand_or_right_problem(str_arg):
     year(str_arg)
-    print('find_way')
+    print('company')
 
 def year(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    next_world('long_woman')
+    hand_or_right_problem('little_way')
