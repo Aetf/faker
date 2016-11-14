@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def year(str_arg):
+def public_hand(str_arg):
     company(str_arg)
-    print('problem_or_case')
+    print('world')
 
 def company(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    year('other_world')
+    public_hand('way_and_good_year')
