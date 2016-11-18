@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def public_man(str_arg):
+def work_woman(str_arg):
     life(str_arg)
-    print('place')
+    print('world')
 
 def life(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    public_man('try_number')
+    work_woman('young_group')
