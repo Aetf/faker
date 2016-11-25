@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def ask_able_eye(str_arg):
+def go_day_into_able_woman(str_arg):
     group(str_arg)
-    print('great_hand')
+    print('try_point')
 
 def group(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    ask_able_eye('own_world_or_point')
+    go_day_into_able_woman('problem')
