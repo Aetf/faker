@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def long_eye(str_arg):
+def important_part(str_arg):
     thing(str_arg)
-    print('thing_or_world')
+    print('feel_group_above_high_year')
 
 def thing(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    long_eye('week')
+    important_part('ask_last_case')
