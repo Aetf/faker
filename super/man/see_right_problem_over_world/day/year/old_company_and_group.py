@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def point(str_arg):
+def little_company(str_arg):
     large_life(str_arg)
-    print('early_fact')
+    print('new_case')
 
 def large_life(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    point('company')
+    little_company('hand')
