@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def thing(str_arg):
+def own_thing(str_arg):
     government(str_arg)
-    print('small_point_or_big_thing')
+    print('good_person_and_work')
 
 def government(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    thing('problem')
+    own_thing('last_number_or_group')
