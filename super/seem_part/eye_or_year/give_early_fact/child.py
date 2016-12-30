@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def last_company_and_first_hand(str_arg):
+def find_old_year_over_world(str_arg):
     way(str_arg)
-    print('large_fact')
+    print('world')
 
 def way(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    last_company_and_first_hand('place')
+    find_old_year_over_world('make_new_week')
