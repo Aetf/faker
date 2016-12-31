@@ -1,12 +1,12 @@
 
 #! /usr/bin/env python
 
-def few_week(str_arg):
+def ask_old_place_from_man(str_arg):
     child(str_arg)
-    print('work_or_woman')
+    print('group_and_eye')
 
 def child(str_arg):
     print(str_arg)
 
 if __name__ == '__main__':
-    few_week('place')
+    ask_old_place_from_man('know_public_week')
