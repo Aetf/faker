@@ -63,15 +63,19 @@ class DatedBitmap(object):
         replica.cells = [base - v for v in self.cells]
         return replica
 
-    def __repr__(self):
+    def bmpstr(self):
         bmp = ''
         for yidx in range(self.nrow):
             for xidx in range(self.ncol):
                 if self._valid(xidx, yidx):
                     bmp += '{: <2}'.format(self._at(xidx, yidx))
             bmp += '\n'
+        return bmp
+
+    def __repr__(self):
         return 'DatedBitmap(ncol={}, nrow={}, start_date={})\n{}'.format(self.ncol, self.nrow,
-                                                                         self.start_date, bmp)
+                                                                         self.start_date,
+                                                                         self.bmpstr())
 
 
 def getUserBMP(username):
@@ -87,9 +91,20 @@ def getUserBMP(username):
 if __name__ == '__main__':
     bmp = getUserBMP('Aetf')
 
-    git_tag('restore_point{:%Y%m%d%H%M%s}'.format(datetime.now()))
+    print('Got your activity map:')
+    print(bmp.bmpstr())
+
+    restore = 'restore_point{:%Y%m%d%H%M%s}'.format(datetime.now())
+    git_tag(restore)
     diff = bmp.diffwitheven()
+
+    print('This will be the diff to make it even')
+    print(diff.bmpstr())
+
     for idx in tqdm(range(diff.size)):
         cell = diff.at(idx)
         if cell.count > 0:
+            tqdm.write('Generating {} commits on {}'.format(cell.count, cell.date))
             commitonday(cell.date, cell.count)
+
+    print('Done. Now you can do a git push, or restore to tag', restore)
