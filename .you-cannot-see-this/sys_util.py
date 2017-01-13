@@ -38,7 +38,7 @@ def git_commit(msg, date=None):
 
 
 def git_rm(files):
-    cmd = cmd_wrap('git', 'rm', '-rf', *files)
+    cmd = cmd_wrap('git', 'rm', '--ignore-unmatch', '-rf', *files)
     check_call(cmd)
 
 
