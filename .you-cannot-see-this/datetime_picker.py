@@ -57,7 +57,8 @@ def dt_pick(dt_from, dt_to, frq):
     if delta.days < 0:
         return []
 
-    rf = rand_frq(frq)
+    #rf = rand_frq(frq)
+    rf = lambda: frq
 
     dl = []
 
@@ -81,4 +82,4 @@ def dt_pick(dt_from, dt_to, frq):
 
 
 if __name__ == '__main__':
-    print(dt_pick('2013-12-14 12:23:34', '2013-12-18 4:23:12', 15))
+    print(dt_pick('2013-12-14 12:23:34', '2013-12-18 4:23:12', 5))

@@ -107,4 +107,4 @@ if __name__ == '__main__':
             tqdm.write('Generating {} commits on {}'.format(cell.count, cell.date))
             commitonday(cell.date, cell.count)
 
-    print('Done. Now you can do a git push, or restore to tag', restore)
+    print('\nDone. Now you can do a git push, or restore to tag', restore)
