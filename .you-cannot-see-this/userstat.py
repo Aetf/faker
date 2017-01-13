@@ -3,8 +3,10 @@
 from datetime import datetime, timedelta
 import requests
 from bs4 import BeautifulSoup
+from tqdm import tqdm
 
 from commitfaker import commitonday
+from sys_util import git_tag
 
 
 class Cell:
@@ -85,9 +87,9 @@ def getUserBMP(username):
 if __name__ == '__main__':
     bmp = getUserBMP('Aetf')
 
+    git_tag('restore_point{:%Y%m%d%H%M%s}'.format(datetime.now()))
     diff = bmp.diffwitheven()
-
-    for idx in range(diff.size):
+    for idx in tqdm(range(diff.size)):
         cell = diff.at(idx)
         if cell.count > 0:
             commitonday(cell.date, cell.count)

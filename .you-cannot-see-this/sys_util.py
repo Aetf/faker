@@ -1,10 +1,10 @@
 #! /usr/bin/env python
 import os
-import datetime
+from subprocess import check_call
 
 
 def cmd_wrap(*args):
-    return ' '.join(args)
+    return args
 
 
 def str_wrap(s):
@@ -13,13 +13,18 @@ def str_wrap(s):
 
 # git
 def git_init():
-    cmd = 'git init'
-    os.system(cmd)
+    cmd = cmd_wrap('git', 'init')
+    check_call(cmd)
 
 
 def git_add(files):
-    cmd = cmd_wrap('git add', ' '.join(files))
-    os.system(cmd)
+    cmd = cmd_wrap('git', 'add', *files)
+    check_call(cmd)
+
+
+def git_tag(tag):
+    cmd = cmd_wrap('git', 'tag', tag)
+    check_call(cmd)
 
 
 def git_commit(msg, date=None):
@@ -29,12 +34,12 @@ def git_commit(msg, date=None):
                 'GIT_AUTHOR_DATE={}'.format(date.isoformat()),
                 'GIT_COMMITTER_DATE={}'.format(date.isoformat())] + cmds
     cmd = cmd_wrap(*cmds)
-    os.system(cmd)
+    check_call(cmd)
 
 
 def git_rm(files):
-    cmd = cmd_wrap('git rm -rf', ' '.join(files))
-    os.system(cmd)
+    cmd = cmd_wrap('git', 'rm', '-rf', *files)
+    check_call(cmd)
 
 
 def git(files, msg):
@@ -44,8 +49,8 @@ def git(files, msg):
 
 # date
 def mod_date(dt):
-    cmd = cmd_wrap('sudo date -s', str_wrap(dt))
-    os.system(cmd)
+    cmd = cmd_wrap('sudo', 'date', '-s', str_wrap(dt))
+    check_call(cmd)
 
 
 # mkdir
